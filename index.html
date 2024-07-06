@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>discover</title>
+    <title>TRAVEL</title>
     <link rel="shortcut icon" href="images/Favicon-One-Planet-Research.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
@@ -11,9 +11,7 @@
 <body>
 
     <header>
-        <div class="burger">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+        <div class="fa-solid fa-bars" id="menu_bar"></div>
         <a href="#home" class="logo"><span>t</span>ravel</a>
         <nav class="navbar">
             <a href="#home">home</a>
@@ -40,7 +38,7 @@
                 <input type="email" placeholder="enter your email">
                 <input type="password" placeholder="enter your password">
                 <input type="submit" class="btn" value="login">
-                <input type="checkbox" name="" id="remember">
+                <input type="checkbox" id="remember">
                 <label for="remember">remember me</label>
                 <p>Forgot Password? <a href="#">Click Here</a></p>
                 <p>Dont Have An Account? <a href="#">Register Now</a></p>
@@ -53,14 +51,21 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
             <a href="#" class="btn">discover now</a>
         </div>
+        <div class="slider">
+            <video class="slide" src="images/vid-1.mp4" autoplay loop muted></video>
+            <video class="slide" src="images/vid-2.mp4" autoplay loop muted></video>
+            <video class="slide" src="images/vid-3.mp4" autoplay loop muted></video>
+            <video class="slide" src="images/vid-4.mp4" autoplay loop muted></video>
+            <video class="slide" src="images/vid-5.mp4" autoplay loop muted></video>
+        </div>
         <div class="controls">
-            <div class="div_btn active"></div>
+            <div class="div_btn"></div>
             <div class="div_btn"></div>
             <div class="div_btn"></div>
             <div class="div_btn"></div>
             <div class="div_btn"></div>
         </div>
-        <video src="images/vid-1.mp4" autoplay loop muted></video>
+        
     </section>
 
     <section class="book" id="book">
@@ -381,6 +386,8 @@
         </div>
         <h6>Created By <a href="#">Armine Aghajanyan</a> | All Rights Reserved</h6>
     </footer>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
